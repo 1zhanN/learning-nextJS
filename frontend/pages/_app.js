@@ -1,7 +1,7 @@
 import "../styles/globals.css";
-import Section1 from "../components/section1/section1";
-import Section2 from "../components/section2/section2";
-import Section3 from "../components/section3/section3";
+import Section1 from "../components/Section1/Section1.jsx";
+import Section2 from "../components/Section2/Section2.jsx";
+import Section3 from "../components/Section3/Section3.jsx";
 
 const app = () => {
     return <>
