@@ -8,7 +8,7 @@ const Section1 = () => {
          
         Excellence in Every <span className="text-green-700"> Service</span> Offering
         </h1>
-        <p className=" lg:max-w-[700px] mx-auto">
+        <p className="mx-auto lg:max-w-[750px] ">
 
         At Seedinov, we offer a wide range of services, from creating and
           marketing pages to developing sophisticated websites, catering to all
