@@ -1,8 +1,8 @@
 const Section2 = () => {
   return (
-    <div className=" items-center flex px-40 mt-20 gap-10 bg-green-100 py-20">
+    <div className="items-center lg:flex px-40 mt-20 gap-10 bg-green-100 py-20">
       <div>
-        <h1 className="text-4xl font-bold ">
+        <h1 className="text-4xl font-bold mb-4">
           Upholding Our Community to{" "}
           <span className="text-green-700">Excellence</span>
         </h1>
@@ -13,11 +13,11 @@ const Section2 = () => {
           vero harum exercitationem quia expedita voluptas?
         </p>
       </div>
-      <div className="flex gap-10 text-center">
+      <div className="flex mt-20 lg:gap-10 text-center">
         <div className="w-64 mb-10">
           <div className="mb-10">
             <h3 className="text-4xl font-bold mb-2">100+</h3>
-            <p>Lorem, ipsum dolor sit</p>
+            <p>Lorem, ipsum dolor</p>
           </div>
           <div>
             <h3 className="text-4xl font-bold mb-2">10+</h3>

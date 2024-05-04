@@ -2,8 +2,8 @@ import Image from "next/image";
 const Section3 = () => {
   return (
     <div className="my-20">
-      <div className="flex justify-center mx-80">
-        <p className="text-2xl font-bold text-gray-800 my-10">
+      <div className="flex justify-center mx-20 lg:mx-80">
+        <p className=" md:text-2xl font-bold text-gray-800 my-10">
           Lorem ipsum dolor sit amet{" "}
           <span className="text-green-700">consectetur</span> adipisicing elit.
           Aspernatur, accusantium? ipsum dolor sit amet consectetur adipisicing
@@ -12,41 +12,39 @@ const Section3 = () => {
       </div>
       <div className="flex justify-center gap-20 p-10 ">
         <div>
-          <div className="my-10">
-            <Image src="/images/ikea.png" alt="Logo" width={100} height={100} />
+          <div className="my-10 relative w-[50px] h-[50px] md:w-[100px] md:h-[100px]">
+            <Image src="/images/ikea.png" alt="Logo" fill />
           </div>
-          <div>
-            <Image src="/images/uber.png" alt="Logo" width={100} height={100} />
+          <div className="relative w-[50px] h-[50px] md:w-[100px] md:h-[100px]">
+            <Image src="/images/uber.png" alt="Logo" fill />
           </div>
         </div>
         <div>
-          <div className="my-10">
+          <div className="my-10 relative w-[50px] h-[50px] md:w-[100px] md:h-[100px]">
             <Image
               src="/images/unrealEngine.png"
               alt="Logo"
-              width={100}
-              height={100}
+              fill
+              className="object-fit"
             />
           </div>
-          <div>
+          <div className="relative w-[50px] h-[50px] md:w-[100px] md:h-[100px]">
             <Image
               src="/images/steam.png"
               alt="Logo"
-              width={100}
-              height={100}
+              fill
             />
           </div>
         </div>
         <div>
-          <div className="my-10">
-            <Image src="/images/ms.png" alt="Logo" width={100} height={100} />
+          <div className="my-10 relative w-[50px] h-[50px] md:w-[100px] md:h-[100px]">
+            <Image src="/images/ms.png" alt="Logo" fill />
           </div>
-          <div>
+          <div className="relative w-[50px] h-[50px] md:w-[100px] md:h-[100px]">
             <Image
               src="/images/mazda.png"
               alt="Logo"
-              width={100}
-              height={100}
+              fill
             />
           </div>
         </div>

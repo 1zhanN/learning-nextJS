@@ -8,14 +8,14 @@ const Section1 = () => {
           This is a <span className="text-green-700">Tailwind</span> CSS styled
           component!
         </h1>
-        <p className="px-80 text-justify">
+        -<p className="px-10 lg:px-60 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
           sit itaque officia provident quae voluptate eos dignissimos labore
           laudantium ut incidunt est repellendus sapiente amet ad eius nemo
           reprehenderit corrupti.
         </p>
       </div>
-      <div className="flex mx-40 gap-20 mt-10">
+      <div className="flex flex-wrap mx-40 gap-20 mt-10 lg:flex-nowrap">
         <Card
           img={"/images/chatgpt.png"}
           heading={"ChatGPT"}
@@ -38,7 +38,7 @@ const Section1 = () => {
           }
         />
       </div>
-      <div className="flex mx-40 gap-20 mt-10">
+      <div className="flex flex-wrap mx-40 gap-20 mt-10 lg:flex-nowrap">
         <Card
           img={"/images/chatgpt.png"}
           heading={"ChatGPT"}
