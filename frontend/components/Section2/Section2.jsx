@@ -1,41 +1,35 @@
 const Section2 = () => {
   return (
-    <div className="items-center lg:flex px-40 mt-20 gap-10 bg-green-100 py-20">
+    <div className="flex flex-col items-center lg:flex-row md:items-stretch p-[92px] gap-10 bg-green-100 py-20">
       <div>
         <h1 className="text-4xl font-bold mb-4">
-          Upholding Our Community to{" "}
+          Upholding Our Commitment to{" "}
           <span className="text-green-700">Excellence</span>
         </h1>
         <p className="py-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nihil
-          delectus officiis nesciunt reprehenderit tempora. Voluptate qui,
-          facilis aliquam reprehenderit asperiores suscipit laudantium tenetur
-          vero harum exercitationem quia expedita voluptas?
+        Empowering growth and success for all stakeholders through our unique approach to delivering exceptional experiences. Join us as we ascend to new heights through the transformative power of digital innovation.
         </p>
       </div>
-      <div className="flex mt-20 lg:gap-10 text-center">
-        <div className="w-64 mb-10">
-          <div className="mb-10">
+      <div className="grid grid-cols-2 sm:gap-10 text-center">
+          <div>
             <h3 className="text-4xl font-bold mb-2">100+</h3>
-            <p>Lorem, ipsum dolor</p>
+            <p>Served Clients Across the Globe</p>
           </div>
           <div>
             <h3 className="text-4xl font-bold mb-2">10+</h3>
-            <p>Lorem</p>
+            <p>Team Members and Advisors</p>
           </div>
-        </div>
-        <div className="w-64">
-          <div className="mb-10">
-            <h3 className="text-4xl font-bold mb-2">20+</h3>
-            <p>Lorem, ipsum </p>
+          <div >
+            <h3 className="text-4xl font-bold mb-2">10+</h3>
+            <p>Projects Built and Deployed</p>
           </div>
           <div>
-            <h3 className="text-4xl font-bold mb-2">108+</h3>
-            <p>Lorem, ipsum dolor</p>
+            <h3 className="text-4xl font-bold mb-2">4+</h3>
+            <p>Years of Excellence</p>
           </div>
         </div>
       </div>
-    </div>
+
   );
 };
 

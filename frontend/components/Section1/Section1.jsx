@@ -5,60 +5,56 @@ const Section1 = () => {
     <div>
       <div className="text-center m-8">
         <h1 className="text-4xl font-bold mb-4">
-          This is a <span className="text-green-700">Tailwind</span> CSS styled
-          component!
+         
+        Excellence in Every <span className="text-green-700"> Service</span> Offering
         </h1>
-        -<p className="px-10 lg:px-60 text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-          sit itaque officia provident quae voluptate eos dignissimos labore
-          laudantium ut incidunt est repellendus sapiente amet ad eius nemo
-          reprehenderit corrupti.
+        <p className="">
+
+        At Seedinov, we offer a wide range of services, from creating and
+          marketing pages to developing sophisticated websites, catering to all
+          your digital needs.
+        
         </p>
       </div>
-      <div className="flex flex-wrap mx-40 gap-20 mt-10 lg:flex-nowrap">
-        <Card
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20 m-10 ">
+      <Card
           img={"/images/chatgpt.png"}
-          heading={"ChatGPT"}
+          heading={"Chat Bots"}
           para={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh gkjs agjksh gks dgjkshdg Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh "
+            " Engage customers effortlessly with Seedinov's Chat Bot solutions. We've designed them to simplify customer interactions, streamline support, and enhance overall satisfaction. "
           }
         />
         <Card
           img={"/images/chatgpt.png"}
-          heading={"ChatGPT"}
+          heading={"Custom AI Solutions"}
           para={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh gkjs agjksh gks dgjkshdg Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh "
+            "Unlock the potential of your business with Seedinov's Custom AI Solutions. Our tailored applications optimize your processes, analyze data effectively, and empower intelligent decision-making for enhanced business performance."
           }
         />
         <Card
           img={"/images/chatgpt.png"}
-          heading={"ChatGPT"}
+          heading={"SaaS"}
           para={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh gkjs agjksh gks dgjkshdg Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh "
-          }
-        />
-      </div>
-      <div className="flex flex-wrap mx-40 gap-20 mt-10 lg:flex-nowrap">
-        <Card
-          img={"/images/chatgpt.png"}
-          heading={"ChatGPT"}
-          para={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh gkjs agjksh gks dgjkshdg Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh "
-          }
+            " Take your business to new heights with Seedinov's SaaS applications. Our cloud-based solutions offer user-friendly experiences, scalability to meet your needs, and a competitive edge in the digital landscape."}
         />
         <Card
           img={"/images/chatgpt.png"}
-          heading={"ChatGPT"}
+          heading={"Automation Services"}
           para={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh gkjs agjksh gks dgjkshdg Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh "
-          }
+            " Simplify and boost efficiency with Seedinov's Automation Services. Our solutions make tasks faster and better, allowing you to focus on core aspects of your business."}
         />
         <Card
           img={"/images/chatgpt.png"}
-          heading={"ChatGPT"}
+          heading={"Product Design"}
           para={
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh gkjs agjksh gks dgjkshdg Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferensaf asfasf asfasf asfasdfasd sdg asdfgasdgasdgsd sdgasdgsdfgs dgs dgsdg sdgas dgs dgsdgasd gs gsdgasgasdgasdasjkhdkjh sdjgkashdgjksdh sdgjsdh "
-          }
+            " Elevate your brand with Seedinov's Product Design expertise. Our talented team transforms your vision into visually captivating products, ensuring a positive impact on your audience."}
+        />
+        <Card
+          img={"/images/chatgpt.png"}
+          heading={"Development Hub"}
+          para={
+            "Seedinov's Integrated Development Solutions: Innovate effortlessly with our user-centric approach, combining web and app development for a comprehensive digital experience. Enhance brand recognition through our efficient development process."}
         />
       </div>
     </div>
