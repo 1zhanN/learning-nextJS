@@ -9,7 +9,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+      'custom-gray': '#101010', // Define custom color with hex value
+    }},
   },
   plugins: [],
 }
