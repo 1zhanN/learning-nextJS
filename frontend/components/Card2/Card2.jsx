@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card2 = ({ img, heading, para }) => {
   return (
-    <div className="border border-black rounded-xl p-6 flex flex-col justify-between h-full m-4">
+    <div className="border border-white rounded-xl p-6 flex flex-col justify-between h-full m-4">
       <div className="flex justify-center">
         <Image src={img} alt="Logo" width={100} height={100} />
       </div>

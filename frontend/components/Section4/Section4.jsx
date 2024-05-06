@@ -36,12 +36,16 @@ const Section4 = () => {
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
           breakpoints={{
+            // when window width is >= 640px
             640: {
               slidesPerView: 1,
             },
+            // when window width is >= 768px
             768: {
               slidesPerView: 2,
+              centeredSlides: false,
             },
+            // when window width is >= 1024px
             1024: {
               slidesPerView: 3,
             },
