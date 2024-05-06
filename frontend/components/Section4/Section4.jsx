@@ -5,6 +5,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
 import Card2 from "../Card2/Card2";
+import { SwiperNavButtons } from "../SwiperNavButton/SwiperNavButton";
 
 const Section4 = () => {
   return (
@@ -51,6 +52,9 @@ const Section4 = () => {
             },
           }}
         >
+          <div className="absolute top-0 right-0 ">
+            <SwiperNavButtons />
+          </div>
           <SwiperSlide>
             {" "}
             <Card2
